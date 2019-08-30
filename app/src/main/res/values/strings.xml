@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">M.A.R</string>
+    <string name="app_list_item_name_tag">Installed app name</string>
+    <string name="app_list_item_no_tag">123</string>
+    <string name="btn_lock_label">Lock Apps</string>
+    <string name="btn_unlock_label">Unlock Apps</string>
+    <string name="app_lock_toggle_drawable">app_lock_toggle</string>
+    <string name="restricted_page_msg">App is Restricted</string>
+    <string name="title_activity_main_swipeable">M.A.R</string>
+    <string name="tab_text_1">Monitor</string>
+    <string name="tab_text_2">Analysis</string>
+    <string name="tab_text_3">Restriction</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_icon">app_icon</string>
+    <string name="daily_average_usage">App Usage :</string>
+    <string name="usage_level">Usage Level :</string>
+    <string name="sample_usage">3 Hr</string>
+    <string name="sample_usage_level">Normal</string>
+    <string name="app_icon_drawable">app_icon_drawable</string>
+    <string name="unsafe_usage_frame_tv_header">Unsafe Usage</string>
+    <string name="safe_usage_frame_tv_header">Safe Usage</string>
+    <string name="about_menu_title">About</string>
+    <string name="lock_screen_icon">lock_page</string>
+    <string name="pin_input_hint">Pin</string>
+    <string-array name="time_span_range">
+        <item>Monthly</item>
+    </string-array>
+</resources>

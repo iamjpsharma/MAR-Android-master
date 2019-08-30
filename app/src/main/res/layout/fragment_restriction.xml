@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/fragment_restriction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pie_chart_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <Button
+            android:id="@+id/btn_lock"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_start_round_corner_shape"
+            android:onClick="lockApps"
+            android:text="@string/btn_lock_label"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_unlock"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_stop_round_corner_shape"
+            android:onClick="unlockApps"
+            android:text="@string/btn_unlock_label"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBackground"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
